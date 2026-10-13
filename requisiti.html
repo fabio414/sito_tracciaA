@@ -13,6 +13,7 @@
 
 
         }
+        /*stile della table*/
            table{
             width: 80%;
             border-collapse: collapse;
@@ -22,12 +23,13 @@
             
                 
         }
-
+        /*stile dei th*/
         th,td{
             padding: 12px 15px;
             border-bottom: 1px solid #dddddd;
 
         }
+        /*stile del thead*/
         thead{
             background-color: #215259;
             color: #dddddd;
@@ -37,7 +39,8 @@
             background-color: #f8f9fa;
 
         }
-
+        /*pointer per la tabella con i numeri dispari*/
+        
         tbody tr:hover{
             background-color: lightblue ;
             cursor: pointer;
@@ -64,6 +67,7 @@
             background-color: darkblue;
             cursor: pointer;
             transition-duration: 700ms;
+            border-radius: 9px;
             
         }
 
@@ -72,15 +76,15 @@
 
 </head>
 <body>
-
+<!--parte navbar-->
      <nav class="stile">
                 <a href="index.html">Home</a>
                 <a href="personaggi.html">personaggi</a>
                 <a href="requisiti.html">requisiti</a>
                 <a href="domande.html">domande</a>
-            </nav>
+                </nav>
     <h1>Requisiti</h1>
-     
+     <!--tabella dei requisiti per giocare-->
         <table>
             <thead>
                 <th>Ram</th><th>Gpu</th><th>Cpu</th>
@@ -91,7 +95,7 @@
                 <tr><td>16 </td><td>geforce3090</td><td>corei9</td></tr>
             </tbody>
             
-        </ta    ble>
+        </table>
     
 </body>
 </html>
