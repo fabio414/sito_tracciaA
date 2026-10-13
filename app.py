@@ -1,3 +1,0 @@
-if __name__ == "__main__";
-        #se questo codice lo eseguo, fai...
-	print("hello world")
